@@ -1,6 +1,6 @@
 There are multiple parts of the code -- 
 
-1. Getting an intermediate output from a regression model. We use PixelNet to train a model for the intended task using simple l-2 regression. 
+1. Getting an intermediate output from a regression model. We use [PixelNet](https://github.com/aayushbansal/PixelNet) to train a model for the intended task using simple l-2 regression. 
 
 2. We then generate the data for the trained model for both the training and test data. Essentially, we generate a triplet in the training set which is then used to do nearest neighbors. An example of this code is available in experiments/faces
 
