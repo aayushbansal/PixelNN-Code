@@ -9,3 +9,15 @@ There are multiple parts of the code --
 4. Finally, the part of the code that helps us to utilize the information from the nearest neighbors in nn/local. I have added example for faces, shoes and bags. 
 
 I have tried to add the required data, but in case something is missing or you want more details, please feel free to mail at aayushb@cs.cmu.edu
+
+If you found these codes useful for your research, please consider citing -
+
+```make
+@inproceedings{
+bansal2018pixelnn,
+title={Pixel{NN}: Example-based Image Synthesis},
+author={Aayush Bansal and Yaser Sheikh and Deva Ramanan},
+booktitle={International Conference on Learning Representations},
+year={2018},
+}
+```
